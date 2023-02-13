@@ -1,0 +1,29 @@
+Prepare PoC for pulling services data and keep it updated;
+
+
+Pre steps:
+1) Select preferable way to authenticate
+    - Make it via auth flow
+        Perfect. Need az-cli to install and login. After we are able to use API to retrieve data with authorized calls;
+
+Steps:
+1) Get Resources
+    - Get all resources - done, but!!!
+        I can see the result on getResources call. But it is not updated;
+        Can not reproduce
+2) Store subscription - TBD
+3) Track ResourceChanges
+    - track update - IS NOT WORKING. After i set new tag to storage account service => did not saw update in both GetResources
+    AND GetResourceChanges(It needs time to store the changes)
+    - track delete - DONE. We may see the delete event on ResourceChanges;
+
+
+NOTES:
+1) Needs to be careful, coz resourcesChanges.ids ARE lowerCased.
+2) How to keep data valid
+    - Keep using getResources interval
+    - getResources as init script, trackUpdates later;
+        Here is a possible issue i see. We can not simple merge resourceChanges with resource. All changes records has
+        a not so easy to handle data structure. It can be posssible pain, and probably will be a need to parse every single object
+        with special way. The script will be unrelieble, time consuming, with a high chances to bahave unexpected
+   - GetResources as init call. Track created/updated events => Grab ids and GetResources by those id and store as it is;

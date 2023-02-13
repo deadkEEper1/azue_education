@@ -1,0 +1,520 @@
+[
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-577fe670-3bb2-40b5-a0f7-25546079d882-EUS/providers/Microsoft.Resources/changes/09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "name": "09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "defaultresourcegroup-eus",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.operationalinsights/workspaces",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-577fe670-3bb2-40b5-a0f7-25546079d882-EUS",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585255546694455807_c8142cc3-ca7b-bdc2-15b3-64e6b3994f70_1032412972_1676052216.json",
+        "correlationId": "9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T18:03:36.0320000Z"
+      },
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T18:03:36.032Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication/providers/Microsoft.Resources/changes/08585255623572295807_898148e3-e648-4dde-b967-7c1b0e44137e",
+    "name": "08585255623572295807_898148e3-e648-4dde-b967-7c1b0e44137e",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/sites",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585255623572295807_2f5bba9d-5103-2b7e-a301-73e0ee7baeca_1267940054_1676044528.json",
+        "newResourceSnapshotId": "snapshot_08585255622800995807_2bdf1f30-69f8-ce0c-27c9-d2e6f2081a7d_3386751966_1676044605.json",
+        "correlationId": "898148e3-e648-4dde-b967-7c1b0e44137e",
+        "changesCount": 2,
+        "timestamp": "2023-02-10T15:56:45.3780000Z"
+      },
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication",
+      "changeType": "Update",
+      "changes": {
+        "properties.tags.edit": {
+          "propertyChangeType": "Remove",
+          "changeCategory": "User",
+          "previousValue": "tag",
+          "newValue": null
+        },
+        "tags.edit": {
+          "propertyChangeType": "Remove",
+          "changeCategory": "User",
+          "previousValue": "tag",
+          "newValue": null
+        }
+      }
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T15:56:45.378Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication/providers/Microsoft.Resources/changes/08585255626191505807_e72771fa-d62c-4f7a-a415-01163912e5e8",
+    "name": "08585255626191505807_e72771fa-d62c-4f7a-a415-01163912e5e8",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/sites",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585255626191505807_5005bc7e-223c-f481-3b9c-7db2dfc5e66e_1590678919_1676044266.json",
+        "newResourceSnapshotId": "snapshot_08585255623618705807_2f5bba9d-5103-2b7e-a301-73e0ee7baeca_862502229_1676044523.json",
+        "correlationId": "e72771fa-d62c-4f7a-a415-01163912e5e8",
+        "changesCount": 4,
+        "timestamp": "2023-02-10T15:55:23.6070000Z"
+      },
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication",
+      "changeType": "Update",
+      "changes": {
+        "properties.tags.edit": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "tag"
+        },
+        "tags.edit": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "tag"
+        },
+        "tags.editedWay": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "tagValue"
+        },
+        "properties.tags.editedWay": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "tagValue"
+        }
+      }
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T15:55:23.607Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication/providers/Microsoft.Resources/changes/08585255660955065807_3bddb0e1-3c68-4f8b-84a1-8f8b09e6f5cd",
+    "name": "08585255660955065807_3bddb0e1-3c68-4f8b-84a1-8f8b09e6f5cd",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/sites",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585255660955065807_e315923d-d4bb-faf6-d6f0-e54da453a0f9_647890593_1676040789.json",
+        "newResourceSnapshotId": "snapshot_08585255626452445807_5005bc7e-223c-f481-3b9c-7db2dfc5e66e_1721343282_1676044240.json",
+        "correlationId": "3bddb0e1-3c68-4f8b-84a1-8f8b09e6f5cd",
+        "changesCount": 2,
+        "timestamp": "2023-02-10T15:50:40.2330000Z"
+      },
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication",
+      "changeType": "Update",
+      "changes": {
+        "tags.added": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "tag"
+        },
+        "properties.tags.added": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "tag"
+        }
+      }
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T15:50:40.233Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/microsoft.alertsmanagement/smartDetectorAlertRules/Failure Anomalies - FakeApplication/providers/Microsoft.Resources/changes/09223372036854775807_2cea5cd5-f09a-498b-8962-9786732a0a07",
+    "name": "09223372036854775807_2cea5cd5-f09a-498b-8962-9786732a0a07",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "global",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.alertsmanagement/smartdetectoralertrules",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/microsoft.alertsmanagement/smartDetectorAlertRules/Failure Anomalies - FakeApplication",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585255664149655807_9e5d6d6b-b44a-d40a-6b0a-2d9658f0a337_3235535181_1676040470.json",
+        "correlationId": "2cea5cd5-f09a-498b-8962-9786732a0a07",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T14:47:50.5120000Z"
+      },
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:47:50.512Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/microsoft.insights/actiongroups/Application Insights Smart Detection/providers/Microsoft.Resources/changes/09223372036854775807_5e93c685-4c48-4e90-98a0-8a4eb2944dff",
+    "name": "09223372036854775807_5e93c685-4c48-4e90-98a0-8a4eb2944dff",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "global",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.insights/actiongroups",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/microsoft.insights/actiongroups/Application Insights Smart Detection",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585255664394555807_bbd052ab-c941-b011-2ca5-ef1686c6eda6_1514632668_1676040446.json",
+        "correlationId": "5e93c685-4c48-4e90-98a0-8a4eb2944dff",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T14:47:26.0220000Z"
+      },
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:47:26.022Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication/providers/Microsoft.Resources/changes/08585255673080125807_36426867-2852-43d9-a417-4c15e08b885d",
+    "name": "08585255673080125807_36426867-2852-43d9-a417-4c15e08b885d",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/sites",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585255673080125807_fa6bd296-e48d-6270-65d7-3da0641459fc_551371319_1676039577.json",
+        "newResourceSnapshotId": "snapshot_08585255667316125807_e315923d-d4bb-faf6-d6f0-e54da453a0f9_147076069_1676040153.json",
+        "correlationId": "36426867-2852-43d9-a417-4c15e08b885d",
+        "changesCount": 2,
+        "timestamp": "2023-02-10T14:42:33.8650000Z"
+      },
+      "changeType": "Update",
+      "changes": {
+        "properties.tags.testName": {
+          "propertyChangeType": "Remove",
+          "changeCategory": "User",
+          "previousValue": "testValue",
+          "newValue": null
+        },
+        "tags.testName": {
+          "propertyChangeType": "Remove",
+          "changeCategory": "User",
+          "previousValue": "testValue",
+          "newValue": null
+        }
+      }
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:42:33.865Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/Microsoft.Web/serverFarms/ASP-CLItestrg-8325/providers/Microsoft.Resources/changes/08585255676808205807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "name": "08585255676808205807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/serverfarms",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/Microsoft.Web/serverFarms/ASP-CLItestrg-8325",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585255676808205807_e1bceaa5-1060-392d-6272-87d4b57ca30b_3330590333_1676039204.json",
+        "newResourceSnapshotId": "snapshot_08585255670843875807_db694d59-3840-3399-6858-3e794803d755_2498301455_1676039801.json",
+        "correlationId": "9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+        "changesCount": 1,
+        "timestamp": "2023-02-10T14:36:41.0900000Z"
+      },
+      "changeType": "Update",
+      "changes": {
+        "properties.numberOfSites": {
+          "propertyChangeType": "Update",
+          "changeCategory": "User",
+          "previousValue": "0",
+          "newValue": "1"
+        }
+      }
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:36:41.09Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication/providers/Microsoft.Resources/changes/08585255675941975807_282622af-d32c-49b1-8d27-aef633e44079",
+    "name": "08585255675941975807_282622af-d32c-49b1-8d27-aef633e44079",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/sites",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585255675941975807_81c7c94e-11a5-9db1-c64c-3fc53b44fb6b_3781396775_1676039291.json",
+        "newResourceSnapshotId": "snapshot_08585255673649175807_fa6bd296-e48d-6270-65d7-3da0641459fc_2093803444_1676039520.json",
+        "correlationId": "282622af-d32c-49b1-8d27-aef633e44079",
+        "changesCount": 2,
+        "timestamp": "2023-02-10T14:32:00.5600000Z"
+      },
+      "changeType": "Update",
+      "changes": {
+        "tags.testName": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "testValue"
+        },
+        "properties.tags.testName": {
+          "propertyChangeType": "Insert",
+          "changeCategory": "User",
+          "previousValue": null,
+          "newValue": "testValue"
+        }
+      }
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:32:00.56Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/microsoft.insights/components/FakeApplication/providers/Microsoft.Resources/changes/09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "name": "09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.insights/components",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/microsoft.insights/components/FakeApplication",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585255676203705807_c496ceb9-c7f6-6a13-4216-5408e938d9ad_1930438373_1676039265.json",
+        "correlationId": "9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T14:27:45.1070000Z"
+      },
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:27:45.107Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication/providers/Microsoft.Resources/changes/09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "name": "09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/sites",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cli-test-rg/providers/Microsoft.Web/sites/FakeApplication",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585255676239865807_49d19eba-8ffc-d5f0-d40a-ed38b5421f93_471336671_1676039261.json",
+        "correlationId": "9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T14:27:41.4910000Z"
+      },
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:27:41.491Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/Microsoft.Web/serverFarms/ASP-CLItestrg-8325/providers/Microsoft.Resources/changes/09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "name": "09223372036854775807_9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "eastus",
+    "resourceGroup": "cli-test-rg",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.web/serverfarms",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/CLI-test-rg/providers/Microsoft.Web/serverFarms/ASP-CLItestrg-8325",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585255676808205807_e1bceaa5-1060-392d-6272-87d4b57ca30b_3330590333_1676039204.json",
+        "correlationId": "9ffe207c-403a-40ff-b17c-2f0f9f4793e5",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T14:26:44.6570000Z"
+      },
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:26:44.657Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/csb10032002717ebd36/providers/Microsoft.Resources/changes/08585256114904975807_4ccc713e-2ec1-403e-a7ed-4d9d27c9ed86",
+    "name": "08585256114904975807_4ccc713e-2ec1-403e-a7ed-4d9d27c9ed86",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "westeurope",
+    "resourceGroup": "cloud-shell-storage-westeurope",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.storage/storageaccounts",
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/csb10032002717ebd36",
+      "changeAttributes": {
+        "previousResourceSnapshotId": "snapshot_08585256114904975807_e63f1ab2-32d5-c477-c82c-5bc51c65553d_898491050_1675995394.json",
+        "newResourceSnapshotId": "snapshot_08585255680438325807_8481f216-9274-ff32-fdba-07221a13accc_1621368881_1676038841.json",
+        "correlationId": "4ccc713e-2ec1-403e-a7ed-4d9d27c9ed86",
+        "changesCount": 0,
+        "timestamp": "2023-02-10T14:20:41.6450000Z"
+      },
+      "changeType": "Delete",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-10T14:20:41.645Z"
+  },
+  {
+    "id": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/csb10032002717ebd36/providers/Microsoft.Resources/changes/09223372036854775807_c755e4e1-6238-4386-9f35-2771cf4a7b57",
+    "name": "09223372036854775807_c755e4e1-6238-4386-9f35-2771cf4a7b57",
+    "type": "microsoft.resources/changes",
+    "tenantId": "345f3033-c8ff-4a90-8f1e-fa289a37c641",
+    "kind": "",
+    "location": "westeurope",
+    "resourceGroup": "cloud-shell-storage-westeurope",
+    "subscriptionId": "577fe670-3bb2-40b5-a0f7-25546079d882",
+    "managedBy": "",
+    "sku": null,
+    "plan": null,
+    "properties": {
+      "targetResourceType": "microsoft.storage/storageaccounts",
+      "changeAttributes": {
+        "previousResourceSnapshotId": null,
+        "newResourceSnapshotId": "snapshot_08585258332990645807_e63f1ab2-32d5-c477-c82c-5bc51c65553d_878827239_1675773586.json",
+        "correlationId": "c755e4e1-6238-4386-9f35-2771cf4a7b57",
+        "changesCount": 0,
+        "timestamp": "2023-02-07T12:39:46.4130000Z"
+      },
+      "targetResourceId": "/subscriptions/577fe670-3bb2-40b5-a0f7-25546079d882/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/csb10032002717ebd36",
+      "changeType": "Create",
+      "changes": {}
+    },
+    "tags": null,
+    "identity": null,
+    "zones": null,
+    "extendedLocation": null,
+    "timestamp": "2023-02-07T12:39:46.413Z"
+  }
+]
