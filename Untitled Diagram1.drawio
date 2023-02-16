@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T18:39:25.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-riFLfyww__90Y3piwjW" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T18:40:10.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8ZBbLoYVABFWgFEveC4n" version="20.8.20" type="github">
   <diagram name="Page-1" id="t9uQAWmX41yd_XQ180Mt">
     <mxGraphModel dx="1480" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7P_vAX1WBsAH3C3ytIEA-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Resource_Graph_Explorer.svg;" parent="1" vertex="1">
-          <mxGeometry x="570" y="180" width="125.63" height="120" as="geometry" />
+          <mxGeometry x="370.86" y="160" width="125.63" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7P_vAX1WBsAH3C3ytIEA-2" value="Resources(22k)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="562.82" y="40" width="140" height="120" as="geometry" />
