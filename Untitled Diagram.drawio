@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T16:17:35.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4XwNvTy8U5xuebog0v-y" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T16:26:16.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jGsqNh6s04aZh2Dns9h1" version="20.8.20" type="github">
   <diagram name="Page-1" id="t9uQAWmX41yd_XQ180Mt">
     <mxGraphModel dx="1884" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -108,6 +108,9 @@
             <mxPoint x="1020" y="60" as="sourcePoint" />
             <mxPoint x="1657" y="715" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L1L9Y7wpmhGUglrIA7kA-41" value="&lt;h1&gt;Send UpToDateResource to Engportal&lt;/h1&gt;&lt;div&gt;Responsibility of function is prepare Resource to being send as payload to Eng Portal endpoint.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Get rows from UpToDateResources table&lt;/div&gt;&lt;div&gt;2) Reformat row according to manifest requirements&lt;/div&gt;&lt;div&gt;3) Send CreateResource request to EngPortal&lt;/div&gt;&lt;div&gt;4) Depending on response:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Success: set isSentToEngPortal: true&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Failure: Create record in CreateCertProductsErrorResponces&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It is stiil questionable&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="870" y="920" width="480" height="770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
